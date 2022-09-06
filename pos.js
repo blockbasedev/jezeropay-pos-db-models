@@ -9,7 +9,7 @@ const PosSchema = new Schema(
     subName: { type: String },
     rating: { type: String },
     price: { type: String },
-    solPrice: { type: String } 
+    solPrice: { type: String },
   },
   {
     timestamps: true,
