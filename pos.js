@@ -17,4 +17,4 @@ const PosSchema = new Schema(
 );
 PosSchema.plugin(Paginate);
 
-export default model('nft', PosSchema);
+export default model('pos', PosSchema);
