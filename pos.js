@@ -1,4 +1,4 @@
-import { Schema, model } from 'mongoose';
+ import { Schema, model } from 'mongoose';
 import Paginate from "mongoose-paginate-v2";
 
 const PosSchema = new Schema(
