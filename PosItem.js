@@ -1,7 +1,7 @@
  import { Schema, model } from 'mongoose';
 import Paginate from "mongoose-paginate-v2";
 
-const PosSchema = new Schema(
+const PosItemSchema = new Schema(
   {
     userId: { type: Schema.Types.ObjectId, ref: 'user' },
     image: { type: String },
@@ -17,4 +17,4 @@ const PosSchema = new Schema(
 );
 PosSchema.plugin(Paginate);
 
-export default model('pos', PosSchema);
+export default model('pos', PosItemSchema);
