@@ -17,4 +17,4 @@ const PosItemSchema = new Schema(
 );
 PosItemSchema.plugin(Paginate);
 
-export default model('pos', PosItemSchema);
+export default model('posItem', PosItemSchema);
