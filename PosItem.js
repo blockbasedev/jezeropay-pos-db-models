@@ -15,6 +15,6 @@ const PosItemSchema = new Schema(
     timestamps: true,
   },
 );
-PosSchema.plugin(Paginate);
+PosItemSchema.plugin(Paginate);
 
 export default model('pos', PosItemSchema);
