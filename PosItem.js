@@ -10,6 +10,7 @@ const PosItemSchema = new Schema(
     rating: { type: String },
     price: { type: String },
     solPrice: { type: String },
+    description: { type: String },
   },
   {
     timestamps: true,
